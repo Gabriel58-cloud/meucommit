@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #242d5c;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    background: rgb(254, 254, 255);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+input, select, button {
+    padding: 8px;
+    margin: 5px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#msgVazia {
+    color: #888;
+}
+
+.botoes button {
+    margin-right: 5px;
+}
+
+.Bolinho{
+    width: 150px
+
+}
+
+
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Botão Concluir */
+button:nth-of-type(1) {
+    background-color: #2ecc71;
+    color: white;
+}
+
+/* Botão Excluir */
+button:nth-of-type(2) {
+    background-color: #e74c3c;
+    color: white;
+}

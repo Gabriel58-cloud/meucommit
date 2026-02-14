@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>App de Tarefas + Sorteador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🚀 App de Tarefas + Sorteador Inteligente</h1>
+
+<!-- ================= MÓDULO 1 ================= -->
+<section class="card">
+    <h2>📋 Lista de Tarefas</h2>
+
+    <input type="text" id="tarefaInput" placeholder="Digite uma tarefa">
+    <button id="btnAdicionar">Adicionar</button>
+
+    <img> <img src="img/download__2_-removebg-preview.png" alt="" class="Bolinho">
+
+    <p id="msgVazia">Nenhuma tarefa cadastrada</p>
+
+    <ul id="listaTarefas"></ul>
+
+    <p>✅ Concluídas: <span id="contador">0</span></p>
+</section>
+
+<!-- ================= MÓDULO 2 ================= -->
+<section class="card">
+    <h2>🎲 Sorteador Inteligente</h2>
+
+    <select id="tipoSorteio">
+        <option value="numero">Número</option>
+        <option value="parimpar">Par ou Ímpar</option>
+    </select>
+
+    <input type="number" id="min" placeholder="Valor mínimo">
+    <input type="number" id="max" placeholder="Valor máximo">
+
+    <div class="botoes">
+        <button id="btnSortear">Sortear</button>
+        <button id="btnAuto">Sortear a cada 2s</button>
+        <button id="btnParar">Parar</button>
+    </div>
+
+    <p><strong>Resultado:</strong> <span id="resultado">-</span></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
